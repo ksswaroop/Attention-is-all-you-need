@@ -9,4 +9,4 @@ class InputEmbedding(nn.Module):
         self.vocab_size=vocab_size
         self.embedding = nn.Embedding(vocab_size,d_model)
     def forward(self,x):
-        return x
+        return xpom
